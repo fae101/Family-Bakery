@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.clear-fix{
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* start of header section */
+#header{
+    height: 100vh;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#header .header-fade{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+#header .header-content{
+    width: 47%;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 250px;
+}
+#header .header-content p{
+    font-family: "Alegreya", serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 44.64px;
+    margin: 10px 0px 20px;
+}
+#header .header-content h1{
+    font-family: "Alegreya", serif;
+    font-size: 76px;
+    font-weight: 400;
+    margin: 0px 0px 18px;
+    line-height: 91.2px;
+}
+
+#header .buttons{
+    text-align: center;
+}
+#header button{
+    font-size: 14px;
+    margin: 0px 0px 12px 12px;
+    text-align: center;
+    padding: 15px 27px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-weight: 700;
+    line-height: 22.1px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+#header .learn-more{
+    background-color: #8E7754;
+    border-color: #8E7754;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+#header button:hover{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+/* end of header section */
+
+/* start of about section */
+#about{
+    background-color: white;
+}    
+#about .about-img{
+        height: 100vh;
+        width: 50%;
+        float: left;
+        text-align: center;
+
+    }
+    #about img{
+        height: 75%;
+        margin-top: 120px;
+        margin-right: 80px;
+    }
+
+    #about .about-content{
+        width: 50%;
+        float: left;
+        margin-top: 170px;
+        font-family: "Alegreya", serif;
+        color: rgb(104, 104, 104);
+        line-height: 31.62px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    #about h1{
+        line-height: 44.16px;
+        margin:  0px 0px 25px;
+        font-size: 32px;
+    }
+    #about p{
+        width: 90%;
+    } 
+    #about li{
+        padding: 15px 0px 15px 56px;
+    } 
+
+/* end of about section */
+
+/* start of location section */
+#location{
+    background-color: #F8F8F8;
+}
+#location .location-content{
+    width: 50%;
+    float: left;
+    margin-top: 150px;
+    font-family: "Alegreya", serif;
+    color: rgb(104, 104, 104);
+    line-height: 31.62px;
+    font-size: 17px;
+    font-weight: 400;
+}
+#location .location-content h1{
+    font-size: 32px;
+    line-height: 44.16px;
+    margin: 0px 0px 20px;
+    color: rgb(48, 48, 48);
+}
+#location .location-content p{
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+#location .location-img{
+    height: 100vh;
+    margin: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#location img{
+    height: 65%;
+    margin-top: 100px;
+}
+/* end of location section */
+
+/* start of baking section */
+#baking{
+    height: 100vh;
+    padding-top: 90px;
+    background-color: white;
+    text-align: center;
+    font-family: "Alegreya", serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#baking h3{
+    font-size: 30px;
+    line-height: 45px;
+    color: rgb(48, 48, 48);
+}
+#baking p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31.62px;
+    margin: 17px 245px 0px 245px;
+    color: rgb(136, 136, 136);
+}
+#baking .baking-content{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    font-family: "Alegreya", serif;
+    color: rgb(104, 104, 104);
+    line-height: 31.62px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+#baking .baking-content img{
+    width: 90%;
+}
+#baking .baking-content h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+#baking .baking-content p{
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+
+/* end of baking section */
+
+/* start of info section */
+#info{
+    background-color: #F8F8F8;
+    height: 100vh;
+}
+
+#info .info-content{
+    margin: auto;
+    width: 50%;
+    float: left;
+    margin-top: 150px;
+    font-family: "Alegreya", serif;
+    color: rgb(104, 104, 104);
+    line-height: 31.62px;
+    font-size: 17px;
+    font-weight: 400;
+}
+#info .info-content h3{
+    line-height: 44.16px;
+    margin:  0px 0px 25px;
+    font-size: 32px;
+}
+#info .info-content p{
+    margin-top:15px;
+    width: 90%;
+}
+#info ul li{
+    padding: 15px 0px 15px 56px;
+} 
+#info .info-map{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: 150px;
+}
+#info .info-map iframe{
+    height: 450px;
+    width: 500px;
+}
+/* end of info section */
+
+/* start of footer section */
+#footer{
+    background-color: #403D38;
+    padding-top: 5%;
+}
+#footer .footer-upper{
+    height: 55vh;
+    width: 100%;
+    margin: auto;
+}
+#footer .footer-upper .footer-list{
+    float: left;
+    width: 25%;
+    margin: auto;
+    font-family: "Alegreya", serif;
+
+}
+#footer .footer-upper .footer-list h3{
+    line-height: 29.76px;
+    font-size: 18px;
+    margin: 0px 0px 25px;
+    font-weight: 400;
+    color: white;
+}
+#footer .footer-upper .footer-list p{
+    line-height: 24.84px;
+    font-size: 15px;
+    width:85%;
+    margin: 0px 0px 20px;
+    font-weight: 400;
+    color: rgb(150, 150, 150);
+}
+#footer .footer-upper .footer-list li{
+        line-height: 31.62px;
+        font-size: 16px;
+        margin: 0px 0px 6px;
+        padding: 0px 0px 7px;
+        font-weight: 400;
+        color: rgb(150, 150, 150);
+}
+
+#footer .footer-lower{
+    height: 45vh;
+    width: 100%;
+    background-color: #353330;
+}
+#footer .footer-lower-content{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+#footer .footer-lower .footer-lower-content p{
+        line-height: 27.9px;
+        font-family:"Alegreya", serif;
+        font-size: 14px;
+        margin: 9px 0px 0px;
+        padding: 0px 0px 7px;
+        font-weight: 400;
+        color: rgb(119, 119, 119);
+}
+
+/* end of footer section */
+
+/* start of navbar section */
+#navbar{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+#navbar .navbar-logo{
+    float: left;
+}
+#navbar .navbar-logo img{
+    width: 55%;
+    margin-top: 15px;
+}
+#navbar .navbar-menu{
+    float: right;
+}
+#navbar .navbar-menu li{
+    display: inline;
+    padding-inline: 15px;
+}
+#navbar .navbar-menu ul{
+    margin-top: 30px;
+}
+#navbar .navbar-menu li a{
+    color: white;
+    font-family:"Alegreya", serif;
+    font-size: 18px;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+/* end of navbar section */
